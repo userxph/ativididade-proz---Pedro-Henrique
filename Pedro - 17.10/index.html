@@ -1,0 +1,831 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- ===== CSS ===== -->
+        <link rel="stylesheet" href="assets/css/styles.css">
+        
+        <title>Pedropólis</title>
+    </head>
+
+    <body id="body-pd">
+        <div class="l-navbar" id="navbar">
+            <nav class="nav">
+                <div>
+                    <div class="nav__brand">
+                        <ion-icon name="menu-outline" class="nav__toggle" id="nav-toggle"></ion-icon>
+                        <a href="#" class="nav__logo">LOGO</a>
+                    </div>
+                    <div class="nav__list">
+                        <a href="#" class="nav__link active">
+                            <ion-icon name="home-outline" class="nav__icon"></ion-icon>
+                            <span class="nav__name">Dashboard</span>
+                        </a>
+                        <a href="#" class="nav__link">
+                            <ion-icon name="chatbubbles-outline" class="nav__icon"></ion-icon>
+                            <span class="nav__name">Messenger</span>
+                        </a>
+
+                        <div  class="nav__link collapse">
+                            <ion-icon name="folder-outline" class="nav__icon"></ion-icon>
+                            <span class="nav__name">Projects</span>
+
+                            <ion-icon name="chevron-down-outline" class="collapse__link"></ion-icon>
+
+                            <ul class="collapse__menu">
+                                <a href="#" class="collapse__sublink">Data</a>
+                                <a href="#" class="collapse__sublink">Group</a>
+                                <a href="#" class="collapse__sublink">Members</a>
+                            </ul>
+                        </div>
+
+                        <a href="#" class="nav__link">
+                            <ion-icon name="pie-chart-outline" class="nav__icon"></ion-icon>
+                            <span class="nav__name">Analytics</span>
+                        </a>
+                        <div class="nav__link collapse">
+                            <ion-icon name="people-outline" class="nav__icon"></ion-icon>
+                            <span class="nav__name">Team</span>
+
+                            <ion-icon name="chevron-down-outline" class="collapse__link"></ion-icon>
+
+                            <ul class="collapse__menu">
+                                <a href="#" class="collapse__sublink">Data</a>
+                                <a href="#" class="collapse__sublink">Group</a>
+                                <a href="#" class="collapse__sublink">Members</a>
+                            </ul>
+                        </div>
+                        <a href="#" class="nav__link">
+                            <ion-icon name="settings-outline" class="nav__icon"></ion-icon>
+                            <span class="nav__name">Settings</span>
+                        </a>
+                    </div>
+                </div>
+
+                <a href="#" class="nav__link">
+                    <ion-icon name="log-out-outline" class="nav__icon"></ion-icon>
+                    <span class="nav__name">Log Out</span>
+                </a>
+            </nav>
+        </div>
+       
+        <div class="frete">
+            <i class='bx bxs-truck truck'></i>
+            <h2>frete grátis para compras acima de R$ 49,99</h2>
+        </div>
+    
+        <main>
+            <section class="banner">
+                <ul id="adaptive" class="cs-hidden">
+                    <li class="item-a">
+                        <img src="assets/img/banner1.png" alt="banner1">
+                    </li>
+                </ul>
+            </section>
+    
+            <section class="popular section bd-container" id="popular">
+                <div class="popular__content">
+                    <div class="titles">
+                        <span class="section-subtitle">aproveite</span>
+                        <h1 class="section-title">Os mais populares</h1>
+                    </div>
+    
+                    <div class="popular__shoes">
+                        <article class="popular__card">
+                            <div class="popular__card__img">
+                                <img src="assets/img/livro1.jpg" alt="Livro 01">
+                            </div>
+    
+                            <div class="share">
+                                <div class="card__block">
+                                    <a href="#"><i class='bx bxs-heart'></i></a>
+                                </div>
+                                <div class="card__block">
+                                    <a href="#"><i class='bx bx-share-alt'></i></a>
+                                </div>
+                            </div>
+    
+                            <div class="sale">
+                                <div class="size">
+                                    <div class="number">01</div>
+                                    <div class="number">02</div>
+                                    <div class="number">03</div>
+                                    <div class="number">04</div>
+                                    <div class="number">05</div>
+        </div>
+    
+                                <div class="card__desc">
+                                    <h3>HeartStopper</h3>
+                                    <p>R$ 53,99</p>
+                                </div>
+    
+                                <div class="card__cart">
+                                    <a href="#" class=" btn btn-outline">Comprar agora!</a>
+                                </div>
+                            </div>
+                        </article>
+                        <article class="popular__card">
+    
+                            <div class="popular__card__img">
+                                <img src="assets/img/livro2.png" alt="Livro 02">
+                            </div>
+    
+                            <div class="share">
+                                <div class="card__block">
+                                    <a href="#"><i class='bx bxs-heart'></i></a>
+                                </div>
+                                <div class="card__block">
+                                    <a href="#"><i class='bx bx-share-alt'></i></a>
+                                </div>
+                            </div>
+    
+                            <div class="popular__card__content">
+                                <div class="size">
+                                    <div class="number">01</div>
+                                    <div class="number">02</div>
+                                    <div class="number">03</div>
+                                    <div class="number">04</div>
+                                    <div class="number">05</div>
+                                </div>
+    
+                                <div class="card__desc">
+                                    <h3>It a coisa</h3> <!-- site para achar os livros https://www.livrariaenjoy.com/-->
+                                    <p>R$ 79,99</p>
+                                </div>
+    
+                                <div class="card__cart">
+                                    <a href="#" class=" btn btn-outline">Comprar agora!</a>
+                                </div>
+                            </div>
+                        </article>
+    
+                        <article class="popular__card">
+                            <div class="popular__card__img">
+                                <img src="assets/img/livro4 (1).jpg" alt="Livro 03">
+                            </div>
+    
+                            <div class="share">
+                                <div class="card__block">
+                                    <a href="#"><i class='bx bxs-heart'></i></a>
+                                </div>
+                                <div class="card__block">
+                                    <a href="#"><i class='bx bx-share-alt'></i></a>
+                                </div>
+                            </div>
+    
+                            <div class="popular__card__content">
+                                <div class="size">
+                                    <div class="number">01</div>
+                                    <div class="number">02</div>
+                                    <div class="number">03</div>
+                                    <div class="number">04</div>
+                                    <div class="number">05</div>
+                                </div>
+    
+                                <div class="card__desc">
+                                    <h3>O Lado Feio Do Amor</h3>
+                                    <p>R$ 43,99</p>
+                                </div>
+    
+                                <div class="card__cart">
+                                    <a href="#" class=" btn btn-outline">Comprar agora!</a>
+                                </div>
+                            </div>
+                        </article>
+                        <article class="popular__card">
+                            <div class="popular__card__img">
+                                <img src="assets/img/livro3.jpg" alt="Livro 04">
+    
+                            </div>
+    
+                            <div class="share">
+                                <div class="card__block">
+                                    <a href="#"><i class='bx bxs-heart'></i></a>
+                                </div>
+                                <div class="card__block">
+                                    <a href="#"><i class='bx bx-share-alt'></i></a>
+                                </div>
+                            </div>
+    
+                            <div class="popular__card__content">
+                                <div class="size">
+                                    <div class="number">01</div>
+                                    <div class="number">02</div>
+                                    <div class="number">03</div>
+                                    <div class="number">04</div>
+                                    <div class="number">05</div>
+                                </div>
+    
+                                <div class="card__desc">
+                                    <h3>Verity</h3>
+                                    <p>R$ 43,99</p>
+                                </div>
+    
+                                <div class="card__cart">
+                                    <a href="#" class=" btn btn-outline">Comprar agora!</a>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+    
+                    <div class="more">
+                        <a href="#">ver mais</a>
+                        <i class='bx bxs-right-arrow-alt'></i>
+                    </div>
+                </div>
+            </section>
+    
+            <section class="more__shoes section bd-container" id="category">
+                <div class="titles">
+                    <span class="section-subtitle">separamos por</span>
+                    <h1 class="section-title">Categorias</h1>
+                </div>
+    
+                <div class="more__content">
+                    <div class="card__more card__more__men">
+                        <img src="assets/img/livro5.jpg" alt="Livros">
+                        <div class="card__more__content">
+                            <h2>Livros</h2>
+                        </div>
+                    </div>
+    
+                    <div class="card__more card__more__women">
+                        <img src="assets/img/livro6.jpg" alt="Mangás">
+                        <div class="card__more__content">
+                            <h2>Mangás</h2>
+                        </div>
+                    </div>
+    
+                    <div class="card__more card__more__kids">
+                        <img src="assets/img/livro7.jpg" alt="infantil">
+                        <div class="card__more__content">
+                            <h2>infantil</h2>
+                        </div>
+                    </div>
+                </div>
+            </section>
+    
+            <section class="section bd-container" id="launch">
+                <div class="titles">
+                    <span class="section-subtitle">Confira os</span>
+                    <h1 class="section-title">Mais Vendidos</h1>
+                </div>
+                <div class="gallery">
+                    <div class="gallery__list">
+                        <article class="gallery__item">
+                            <div class="gallery__img">
+                                <img src="assets/img/livro8.png" alt="Livro 08">
+                            </div>
+                            <div class="share">
+                                <div class="card__block">
+                                    <a href="#"><i class='bx bxs-heart'></i></a>
+                                </div>
+                                <div class="card__block">
+                                    <a href="#"><i class='bx bx-share-alt'></i></a>
+                                </div>
+                            </div>
+    
+                            <div class="gallery__desc">
+                                <div class="gallery__content">
+                                    <h1>HeartStopper (Vol.4)</h1>
+                                    <span>Alice Oseman</span>
+                                </div>
+                                <div class="gallery__price">
+                                    <p>R$ 51,99</p>
+                                </div>
+                            </div>
+    
+                            <div class="sale">
+                                <div class="size">
+                                    <div class="number">01</div>
+                                    <div class="number">02</div>
+                                    <div class="number">03</div>
+                                    <div class="number">04</div>
+                                    <div class="number">05</div>
+                                </div>
+                                <button class="btn">COMPRAR</button>
+                            </div>
+                        </article>
+                    </div>
+    
+                    <div class="gallery__list__right">
+                        <article class="gallery__item">
+                            <div class="gallery__img">
+                                <img src="assets/img/livro9.png" alt="livro 09">
+                            </div>
+                            <div class="share">
+                                <div class="card__block">
+                                    <a href="#"><i class='bx bxs-heart'></i></a>
+                                </div>
+                                <div class="card__block">
+                                    <a href="#"><i class='bx bx-share-alt'></i></a>
+                                </div>
+                            </div>
+    
+                            <div class="gallery__desc">
+                                <div class="gallery__content">
+                                    <h1>Os dois morrem no final</h1>
+                                    <span>Adam Silvera</span>
+                                </div>
+                                <div class="gallery__price">
+                                    <p>R$ 199,00</p>
+                                </div>
+                            </div>
+    
+                            <div class="sale">
+                                <div class="size">
+                                    <div class="number">01</div>
+                                    <div class="number">02</div>
+                                    <div class="number">03</div>
+                                    <div class="number">04</div>
+                                    <div class="number">05</div>
+                                </div>
+                                <button class="btn">COMPRAR</button>
+                            </div>
+                        </article>
+                        <article class="gallery__item">
+                            <div class="gallery__img">
+                                <img src="assets/img/livro10.png" alt="">
+                            </div>
+                            <div class="share">
+                                <div class="card__block">
+                                    <a href="#"><i class='bx bxs-heart'></i></a>
+                                </div>
+                                <div class="card__block">
+                                    <a href="#"><i class='bx bx-share-alt'></i></a>
+                                </div>
+                            </div>
+    
+                            <div class="gallery__desc">
+                                <div class="gallery__content">
+                                    <h1>O pequeno príncipe</h1>
+                                    <span>Antoine Exupéry</span>
+                                </div>
+                                <div class="gallery__price">
+                                    <p>R$ 11,99</p>
+                                </div>
+                            </div>
+    
+                            <div class="sale">
+                                <div class="size">
+                                    <div class="number">01</div>
+                                    <div class="number">02</div>
+                                    <div class="number">03</div>
+                                    <div class="number">04</div>
+                                    <div class="number">05</div>
+                                </div>
+                                <button class="btn">COMPRAR</button>
+                            </div>
+                        </article>
+                        <article class="gallery__item">
+                            <div class="gallery__img">
+                                <img src="assets/img/livro11.png" alt="">
+                            </div>
+                            <div class="share">
+                                <div class="card__block">
+                                    <a href="#"><i class='bx bxs-heart'></i></a>
+                                </div>
+                                <div class="card__block">
+                                    <a href="#"><i class='bx bx-share-alt'></i></a>
+                                </div>
+                            </div>
+    
+                            <div class="gallery__desc">
+                                <div class="gallery__content">
+                                    <h1>O diário de Anne Frank</h1>
+                                    <span>Anne Frank</span>
+                                </div>
+                                <div class="gallery__price">
+                                    <p>R$ 12,99</p>
+                                </div>
+                            </div>
+    
+                            <div class="sale">
+                                <div class="size">
+                                    <div class="number">01</div>
+                                    <div class="number">02</div>
+                                    <div class="number">03</div>
+                                    <div class="number">04</div>
+                                    <div class="number">05</div>
+                                </div>
+                                <button class="btn">COMPRAR</button>
+                            </div>
+                        </article>
+                        <article class="gallery__item">
+                            <div class="gallery__img">
+                                <img src="assets/img/livro12.png" alt="">
+                            </div>
+                            <div class="share">
+                                <div class="card__block">
+                                    <a href="#"><i class='bx bxs-heart'></i></a>
+                                </div>
+                                <div class="card__block">
+                                    <a href="#"><i class='bx bx-share-alt'></i></a>
+                                </div>
+                            </div>
+    
+                            <div class="gallery__desc">
+                                <div class="gallery__content">
+                                    <h1>As coisas que você só se vê quando desacelera</h1>
+                                    <span>Haemin Sunim</span>
+                                </div>
+                                <div class="gallery__price">
+                                    <p>R$ 47,99</p>
+                                </div>
+                            </div>
+    
+                            <div class="sale">
+                                <div class="size">
+                                    <div class="number">01</div>
+                                    <div class="number">02</div>
+                                    <div class="number">03</div>
+                                    <div class="number">04</div>
+                                    <div class="number">05</div>
+                                </div>
+                                <button class="btn">COMPRAR</button>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+                
+            </section>
+    
+            <section class="section optin">
+                <div class="optin__content">
+                    <h1>Quer 20% de desconto?</h1>
+                    <p>Informe seu melhor e-mail abaixo e receba um cupom de 20% de desconto para sua primeira compra!</p>
+                    <form action="">
+                        <input type="text" placeholder="Informe sem melhor e-mail">
+                        <button class="btn">QUERO MEU DESCONTO</button>
+                    </form>
+                </div>
+            </section>
+    
+            <section class="popular section bd-container" id="collection">
+                <div class="titles">
+                    <span class="section-subtitle">veja aqui nossa</span>
+                    <h1 class="section-title">Coleção</h1>
+                </div>
+                <div class="popular__content">
+                    <div class="popular__shoes">
+                        <article class="popular__card">
+                            <div class="popular__card__img">
+                                <img src="assets/img/livro17.jpg" alt="shoe feminino">
+                            </div>
+    
+                            <div class="share">
+                                <div class="card__block">
+                                    <a href="#"><i class='bx bxs-heart'></i></a>
+                                </div>
+                                <div class="card__block">
+                                    <a href="#"><i class='bx bx-share-alt'></i></a>
+                                </div>
+                            </div>
+    
+                            <div class="popular__card__content">
+                                <div class="size">
+                                    <div class="number">34</div>
+                                    <div class="number numberOff">35</div>
+                                    <div class="number">36</div>
+                                    <div class="number">37</div>
+                                    <div class="number">38</div>
+                                </div>
+    
+                                <div class="card__desc">
+                                    <h3>Odeio te amar</span></h3>
+                                    <p>R$ 49,99</p>
+                                </div>
+    
+                                <div class="card__cart">
+                                    <a href="#" class=" btn btn-outline">adiconar ao carrinho</a>
+                                </div>
+                            </div>
+                        </article>
+                        <article class="popular__card">
+                            <div class="discount"> 15%<i class='bx bx-down-arrow-alt'></i></div>
+                            <div class="popular__card__img">
+                                <img src="assets/img/livro20.jpg" alt="shoe feminino">
+                            </div>
+    
+                            <div class="share">
+                                <div class="card__block">
+                                    <a href="#"><i class='bx bxs-heart'></i></a>
+                                </div>
+                                <div class="card__block">
+                                    <a href="#"><i class='bx bx-share-alt'></i></a>
+                                </div>
+                            </div>
+    
+                            <div class="popular__card__content">
+                                <div class="size">
+                                    <div class="number">34</div>
+                                    <div class="number numberOff">35</div>
+                                    <div class="number">36</div>
+                                    <div class="number">37</div>
+                                    <div class="number">38</div>
+                                </div>
+    
+                                <div class="card__desc">
+                                    <h3>Chainsaw</h3>
+                                    <p>R$ 36,99</p>
+                                </div>
+    
+                                <div class="card__cart">
+                                    <a href="#" class=" btn btn-outline">adiconar ao carrinho</a>
+                                </div>
+                            </div>
+                        </article>
+                        <article class="popular__card">
+                            <div class="popular__card__img">
+                                <img src="assets/img/livro13.jpg" alt="shoe feminino">
+                            </div>
+    
+                            <div class="share">
+                                <div class="card__block">
+                                    <a href="#"><i class='bx bxs-heart'></i></a>
+                                </div>
+                                <div class="card__block">
+                                    <a href="#"><i class='bx bx-share-alt'></i></a>
+                                </div>
+                            </div>
+    
+                            <div class="popular__card__content">
+                                <div class="size">
+                                    <div class="number">01</div>
+                                    <div class="number numberOff">02</div>
+                                    <div class="number">03</div>
+                                    <div class="number">04</div>
+                                    <div class="number">05</div>
+                                </div>
+    
+                                <div class="card__desc">
+                                    <h3>O alto da baca do inferno</span></h3>
+                                    <p>R$ 23,99</p>
+                                </div>
+    
+                                <div class="card__cart">
+                                    <a href="#" class=" btn btn-outline">adiconar ao carrinho</a>
+                                </div>
+                            </div>
+                        </article>
+                        <article class="popular__card">
+                            <div class="popular__card__img">
+                                <img src="assets/img/livro18.jpg" alt="shoe feminino">
+                                <div class="block__lauch">lançamento</div>
+                            </div>
+    
+                            <div class="share">
+                                <div class="card__block">
+                                    <a href="#"><i class='bx bxs-heart'></i></a>
+                                </div>
+                                <div class="card__block">
+                                    <a href="#"><i class='bx bx-share-alt'></i></a>
+                                </div>
+                            </div>
+    
+                            <div class="popular__card__content">
+                                <div class="size">
+                                    <div class="number">01</div>
+                                    <div class="number numberOff">02</div>
+                                    <div class="number">03</div>
+                                    <div class="number">04</div>
+                                    <div class="number">05</div>
+                                </div>
+    
+                                <div class="card__desc">
+                                    <h3>Corte de gelos e estrelas</h3>
+                                    <p>R$ 43,99</p>
+                                </div>
+    
+                                <div class="card__cart">
+                                    <a href="#" class=" btn btn-outline">adiconar ao carrinho</a>
+                                </div>
+                            </div>
+                        </article>
+                        <article class="popular__card">
+                            <div class="popular__card__img">
+                                <img src="assets/img/livro16.jpg" alt="shoe feminino">
+                                <div class="block__lauch">lançamento</div>
+                            </div>
+    
+                            <div class="share">
+                                <div class="card__block">
+                                    <a href="#"><i class='bx bxs-heart'></i></a>
+                                </div>
+                                <div class="card__block">
+                                    <a href="#"><i class='bx bx-share-alt'></i></a>
+                                </div>
+                            </div>
+    
+                            <div class="popular__card__content">
+                                <div class="size">
+                                    <div class="number">34</div>
+                                    <div class="number numberOff">35</div>
+                                    <div class="number">36</div>
+                                    <div class="number">37</div>
+                                    <div class="number">38</div>
+                                </div>
+    
+                                <div class="card__desc">
+                                    <h3>O </h3>
+                                    <p>R$ 199,00</p>
+                                </div>
+    
+                                <div class="card__cart">
+                                    <a href="#" class=" btn btn-outline">adiconar ao carrinho</a>
+                                </div>
+                            </div>
+                        </article>
+                        <article class="popular__card">
+                            <div class="popular__card__img">
+                                <img src="assets/img/livro14.jpg" alt="shoe feminino">
+                                <div class="block__lauch">lançamento</div>
+                            </div>
+    
+                            <div class="share">
+                                <div class="card__block">
+                                    <a href="#"><i class='bx bxs-heart'></i></a>
+                                </div>
+                                <div class="card__block">
+                                    <a href="#"><i class='bx bx-share-alt'></i></a>
+                                </div>
+                            </div>
+    
+                            <div class="popular__card__content">
+                                <div class="size">
+                                    <div class="number">34</div>
+                                    <div class="number numberOff">35</div>
+                                    <div class="number">36</div>
+                                    <div class="number">37</div>
+                                    <div class="number">38</div>
+                                </div>
+    
+                                <div class="card__desc">
+                                    <h3>Nike Shoes <span>masculino</span></h3>
+                                    <p>R$ 199,00</p>
+                                </div>
+    
+                                <div class="card__cart">
+                                    <a href="#" class=" btn btn-outline">adiconar ao carrinho</a>
+                                </div>
+                            </div>
+                        </article>
+                        <article class="popular__card">
+                            <div class="popular__card__img">
+                                <img src="assets/img/livro15.jpg" alt="shoe feminino">
+                                <div class="block__lauch">lançamento</div>
+                            </div>
+    
+                            <div class="share">
+                                <div class="card__block">
+                                    <a href="#"><i class='bx bxs-heart'></i></a>
+                                </div>
+                                <div class="card__block">
+                                    <a href="#"><i class='bx bx-share-alt'></i></a>
+                                </div>
+                            </div>
+    
+                            <div class="popular__card__content">
+                                <div class="size">
+                                    <div class="number">34</div>
+                                    <div class="number numberOff">35</div>
+                                    <div class="number">36</div>
+                                    <div class="number">37</div>
+                                    <div class="number">38</div>
+                                </div>
+    
+                                <div class="card__desc">
+                                    <h3>Nike Shoes <span>feminino</span></h3>
+                                    <p>R$ 199,00</p>
+                                </div>
+    
+                                <div class="card__cart">
+                                    <a href="#" class=" btn btn-outline">adiconar ao carrinho</a>
+                                </div>
+                            </div>
+                        </article>
+                        <article class="popular__card">
+                            <div class="popular__card__img">
+                                <img src="assets/img/livro19.jpg" alt="shoe feminino">
+                            </div>
+    
+                            <div class="share">
+                                <div class="card__block">
+                                    <a href="#"><i class='bx bxs-heart'></i></a>
+                                </div>
+                                <div class="card__block">
+                                    <a href="#"><i class='bx bx-share-alt'></i></a>
+                                </div>
+                            </div>
+    
+                            <div class="popular__card__content">
+                                <div class="size">
+                                    <div class="number">34</div>
+                                    <div class="number numberOff">35</div>
+                                    <div class="number">36</div>
+                                    <div class="number">37</div>
+                                    <div class="number">38</div>
+                                </div>
+    
+                                <div class="card__desc">
+                                    <h3>Nike Shoes <span>masculino</span></h3>
+                                    <p>R$ 199,00</p>
+                                </div>
+    
+                                <div class="card__cart">
+                                    <a href="#" class=" btn btn-outline">adiconar ao carrinho</a>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+                    <div class="more">
+                        <a href="#">coleção completa aqui</a>
+                        <i class='bx bxs-right-arrow-alt'></i>
+                    </div>
+                </div>
+            </section>
+    
+            <section class="optin section">
+                <div class="optin__content">
+                    <h2>Receba as novidade da <a href="#" class="logo">SHOES<span>.</span></a></h2>
+                    <p>Cadastre-se e seja um dos primeriros a saber de todas as novidades e ofertas.</p>
+                    <form action="">
+                        <input type="text" placeholder="Informe sem melhor e-mail">
+                        <button class="btn">RECEBER NOVIDADES</button>
+                    </form>
+                </div>
+            </section>
+    
+            <section class="menu__footer section bd-container">
+                <div class="menu__footer__link">
+                    <a href="#">
+                        <h2>Popular</h2>
+                    </a>
+                    <a href="#">calçados 1</a>
+                    <a href="#">calçados 2</a>
+                    <a href="#">calçados 3</a>
+                    <a href="#">calçados 4</a>
+                </div>
+    
+                <div class="menu__footer__link">
+                    <a href="#">
+                        <h2>Categoria</h2>
+                    </a>
+                    <a href="#">Masculino</a>
+                    <a href="#">Feminino</a>
+                    <a href="#">Infantil</a>
+                </div>
+    
+                <div class="menu__footer__link">
+                    <a href="#">
+                        <h2>Lançamentos</h2>
+                    </a>
+                    <a href="#">marca 1</a>
+                    <a href="#">marca 2</a>
+                    <a href="#">marca 3</a>
+                    <a href="#">marca 4</a>
+                </div>
+    
+                <div class="menu__footer__link">
+                    <h2>Pagamento Seguro</h2>
+                    <div class="cards">
+                        <img src="assets/img/Cads/amex.png" alt="">
+                        <img src="assets/img/Cads/aura.png" alt="">
+                        <img src="assets/img/Cads/dinners.png" alt="">
+                        <img src="assets/img/Cads/discover.png" alt="">
+                        <img src="assets/img/Cads/elo.png" alt="">
+                        <img src="assets/img/Cads/hiper.png" alt="">
+                        <img src="assets/img/Cads/jcb.png" alt="">
+                        <img src="assets/img/Cads/mastercard.png" alt="">
+                        <img src="assets/img/Cads/visa.png" alt="">
+                    </div>
+                </div>
+            </section>
+    
+        </main>
+    
+        <footer class="footer">
+            <div class="footer__content bd-container">
+                <h1><a href="#" class="logo">SHOES<span>.</span></a></h1>
+                <p>É um Front End de um e-commerce</p>
+                <p>*Todas as imagens utilizadas nesse projeto tem seus diretios autorais, não podendo ser usado em um
+                    projeto real.</p>
+            </div>
+            <div class="footer__social">
+                <a href="#"><i class='bx bxl-instagram'></i></a>
+                <a href="#"><i class='bx bxl-facebook'></i></a>
+                <a href="#"><i class='bx bxl-twitter'></i></a>
+            </div>
+        </footer>
+        
+        <!-- ===== IONICONS ===== -->
+        <script src="https://unpkg.com/ionicons@5.1.2/dist/ionicons.js"></script>
+        
+        <!-- ===== MAIN JS ===== -->
+    <script src="assets/js/jquery.js"></script>
+    <script src="assets/js/lightslider.js"></script>
+    <script src="assets/js/main.js"></script>
+    </body>
+</html>
